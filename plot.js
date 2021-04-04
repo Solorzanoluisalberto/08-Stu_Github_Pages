@@ -1,4 +1,4 @@
-// Use d3.json() to fetch data from JSON file
+// Use d3.json() to fetch data from JSON files
 // Incoming data is internally referred to as incomingData
 d3.json("data/data.json").then((incomingData) => {
   function filterMovieRatings(movie) {
